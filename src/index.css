@@ -5,9 +5,99 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  display: flex;
+  justify-content:  center;
+  align-items:  center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  background-color: #F5F8F3;
+  width: 280px;
+  height: 280px;
+  border: 3px black solid;
+  border-radius: 1.8rem;
+  outline: burlywood;
+  position: relative;
+  color: white;
+}
+.sub-container{
+  background-color:#4F4F4F ;
+  border: black solid 3px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;margin-top: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn{
+  background-color: #098413;
+  width: 50%;
+  border-radius: 445%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: .9rem;
+  border:  black solid 3px;
+  cursor: pointer;
+}
+.btn1{
+  background-image: linear-gradient(to top,#007D00,#0E3A18);
+  border-radius: 445%;
+  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+  
+}
+.btn1 h1{
+  font-size: 2rem;
+}
+
+.btnn{
+  position: absolute;
+  background-color:#e9b809;
+  border-radius: 50%;
+  width: 25%;
+  top: 11.5rem;
+  right: 1.3rem;
+  border: black solid 3px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  
+}
+.btn2{
+  background-image: linear-gradient(to top,#ffcd07 ,#af8c00 );
+  border-radius: 445%;
+  width: 70%;
+  height: 50px;
+  margin-top: .6rem;
+  margin-bottom: .6rem;
+  padding: .1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn2 h2{
+  font-size: 2rem;
+  cursor: pointer;
 }
